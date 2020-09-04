@@ -16,7 +16,7 @@ public class Animator {
   var shouldResizeFrames = false
 
   /// Responsible for loading individual frames and resizing them if necessary.
-  var frameStore: FrameStore?
+  public var frameStore: FrameStore?
 
   /// Tracks whether the display link is initialized.
   private var displayLinkInitialized: Bool = false

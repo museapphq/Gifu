@@ -39,7 +39,7 @@ public class FrameStore {
   var imageSource: CGImageSource
 
   /// The index of the current GIF frame.
-  var currentFrameIndex = 0 {
+  public var currentFrameIndex = 0 {
     didSet {
       previousFrameIndex = oldValue
     }
